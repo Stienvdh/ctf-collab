@@ -6,3 +6,4 @@ config['PRODUCTION_ROOM'] = "<Replace me in stage 0>"
 config['TESTING_ROOM'] = "<Replace me in stage 1>"
 
 config["PRODUCTION_ROOM_TITLE"] = "Programmability CTF - Day 1 - Team 1"
+config["TESTING_ROOM_TITLE"] = "Patrick Holse appreciation club"
