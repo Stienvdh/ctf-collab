@@ -48,11 +48,10 @@ def post_message(room_id):
     resp = s.post(url, json=data)
 
 if __name__ == "__main__":
-    ROOM_ID = get_room_id()
+    # ROOM_ID = get_room_id()
+    ROOM_ID = config["TESTING_ROOM"]
 
     members = ["mneiding@cisco.com", "frewagne@cisco.com"]
     for member in members:
         add_member(ROOM_ID, member)
     post_message(ROOM_ID)
-
-    print(f'Found testing room ID: {config["TESTING_ROOM"]}')
